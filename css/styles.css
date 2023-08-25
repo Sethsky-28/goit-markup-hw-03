@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'roboto';
+    color: #2E2F42;
+}
+
+.web {
+    color: #4D5AE5;
+}
+
+.nav-logo {
+    font-family: 'raleway extrabold';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1em;
+}
+
+.nav-logo {
+    text-decoration: none;
+}
+
+.nav-list-item-studio,
+.nav-list-item-portfolio,
+.nav-list-item-contacts {
+    text-decoration: none;
+}
+
+.nav-list-item-studio {
+    color: #4D5AE5;
+    font-family: 'roboto';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5em;;
+}
+
+.nav-list-item-portfolio,
+.nav-list-item-contacts {
+    font-family: 'roboto';
+    font-size: 16px;
+    font-weight: 500;
+    color: #2E2F42;
+    line-height: 1.5em;
+}
+
+.address-lists-item-email {
+    text-decoration: none;
+    color: #434455;
+    font family;'roboto';
+    font size: 16px;
+    font weight: 400;
+    font style: normal;
+    line height: 1.5em;
+}
+
+.address-lists-item-tel {
+    text-decoration: none;
+    color: #434455;
+    font family; 'roboto';
+    font size: 16px;
+    font weight: 400;
+    font style: normal;
+    line height: 1.5em;
+}
+
+.hero {
+    background-color: #2E2F42;
+    height: 600;
+    width: 1440;
+}
+
+.hero-heading {
+    text-align: center;
+    color: rgb(255, 255, 255) ;
+    font-family: 'roboto';
+    font weight: 700;
+    font size: 56px;
+    line height: 3.15em;
+}
+
+.hero-section-button {
+    color: white;
+    background-color: #4D5AE5;
+    font-family: 'roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+.main-strategy {
+    font font-family: 'roboto';
+    font size: 20px;
+    font weight: 500;
+    line height: 1.25em;
+    color: #2E2F42;
+}
+
+.para-stretegy {
+    font family: 'roboto';
+    font-size: 16px;
+    font weight: 400;
+    line-height: 1.5em;
+    color: #434455;
+}
+
+.main-punctuality {
+    font font-family: 'roboto';
+    font size: 20px;
+    font weight: 500;
+    line height: 1.25em;
+    color: #2E2F42;
+}
+
+.para-panctuality {
+    font family: 'roboto';
+    font-size: 16px;
+    font weight: 400;
+    line-height: 1.5em;
+    color: #434455;
+}
+
+.main-diligence, {
+    font font-family: 'roboto';
+    font size: 20px;
+    font weight: 500;
+    line height: 1.25em;
+    color: #2E2F42;
+}
+
+.para-diligence {
+    font family: 'roboto';
+    font-size: 16px;
+    font weight: 400;
+    line-height: 1.5em;
+    color: #434455;
+}
+
+.main-technologies {
+    font font-family: 'roboto';
+    font size: 20px;
+    font weight: 500;
+    line height: 1.25em;
+    color: #2E2F42;
+}
+
+.para-technologies {
+    font family: 'roboto';
+    font-size: 16px;
+    font weight: 400;
+    line-height: 1.5em;
+    color: #434455;
+}
+
+.main-heading-2 {
+    font font-family: 'roboto';
+    font size: 36px;
+    font weight: 700;
+    text-align: center;
+    line height: 2.25em;
+    color: #2E2F42;
+}
+
+.main-heading-3 {
+    font font-family: 'roboto';
+    font size: 36px;
+    font weight: 700;
+    text-align: center;
+    line height: 2.25em;
+    color: #2E2F42;
+}
+
+.mark-guerrero {
+    font font-family: 'roboto';
+    font weight: 500;
+    font size: 20px;
+    line height: 1.5em;
+    color: #2E2F42;
+}
+
+.product-designer {
+    font font-family: 'roboto';
+    font size: 16px;
+    font weight: 400;
+    line height: 1.5em;
+    color: #434343;
+
+}
+
+.tom-ford {
+    font font-family: 'roboto';
+    font weight: 500;
+    font size: 20px;
+    line height: 1.5em;
+    color: #2E2F42;
+}
+
+.frontend-developer {
+    font font-family: 'roboto';
+    font size: 16px;
+    font weight: 400;
+    line height: 1.5em;
+    color: #434343;
+}
+
+.camila-garcia {
+    font font-family: 'roboto';
+    font weight: 500;
+    font size: 20px;
+    line height: 1.5em;
+    color: #2E2F42;
+}
+
+.marketing {
+    font font-family: 'roboto';
+    font size: 16px;
+    font weight: 400;
+    line height: 1.5em;
+    color: #434343;
+}
+
+.daniel-wilson {
+    font font-family: 'roboto';
+    font weight: 500;
+    font size: 20px;
+    line height: 1.5em;
+    color: #2E2F42;
+}
+
+.user-interface {
+    font font-family: 'roboto';
+    font size: 16px;
+    font weight: 400;
+    line height: 1.5em;
+    color: #434343;
+}
+
+.footer-logo {
+    text-decoration: none;
+}
+
+.footer-para {
+    font font-family: 'roboto';
+    font size: 16px;
+    font weight: 400;
+    line height: 1.5em;
+    color: #F4F4FD;
+}
+
+.footer {
+    background-color: #2E2F42;
+    height: 312;
+    width: 1440;
+}
