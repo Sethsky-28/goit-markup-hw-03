@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'roboto';
+    color: #2E2F42;
+}
+
+.iris {
+    color: #4D5AE5;
+}
+
+.nav-logo {
+    font-family: 'raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1em;
+}
+
+.nav-logo {
+    text-decoration: none;
+}
+
+.nav-item {
+    text-decoration: none;
+}
+
+.nav-link-studio {
+    color: #4D5AE5;
+    font-family: 'roboto';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5em;
+    text-decoration: none;
+}
+
+.nav-link-portfolio,
+.nav-link-contacts {
+    font-family: 'roboto';
+    font-size: 16px;
+    font-weight: 500;
+    color: #2E2F42;
+    line-height: 1.5em;
+    text-decoration: none;
+}
+
+.address-link-email {
+    text-decoration: none;
+    color: #434455;
+    font family;
+    'roboto';
+    font size: 16px;
+    font weight: 400;
+    font style: normal;
+    line height: 1.5em;
+}
+
+.address-link-tel {
+    text-decoration: none;
+    color: #434455;
+    font family;
+    'roboto';
+    font size: 16px;
+    font weight: 400;
+    font style: normal;
+    line height: 1.5em;
+}
+
+.section-hero {
+    background-color: #2E2F42;
+    height: 600;
+    width: 1440;
+}
+
+.hero-title {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'roboto';
+    font weight: 700;
+    font size: 56px;
+    line height: 3.15em;
+}
+
+.hero-button {
+    color: white;
+    background-color: #4D5AE5;
+    font-family: 'roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+.features-item-title {
+    font font-family: 'roboto';
+    font size: 20px;
+    font weight: 500;
+    line height: 1.25em;
+    color: #2E2F42;
+}
+
+.features-item-description {
+    font family: 'roboto';
+    font-size: 16px;
+    font weight: 400;
+    line-height: 1.5em;
+    color: #434455;
+}
+
+.services-title {
+    font font-family: 'roboto';
+    font size: 36px;
+    font weight: 700;
+    text-align: center;
+    line height: 2.25em;
+    color: #2E2F42;
+}
+
+.services-item-image {
+    align-items: start;
+}
+
+.team-title {
+    font font-family: 'roboto';
+    font size: 36px;
+    font weight: 700;
+    text-align: center;
+    line height: 2.25em;
+    color: #2E2F42;
+}
+
+.team-item-name {
+    font font-family: 'roboto';
+    font weight: 500;
+    font size: 20px;
+    line height: 1.5em;
+    color: #2E2F42;
+}
+
+.team-item-position {
+    font font-family: 'roboto';
+    font size: 16px;
+    font weight: 400;
+    line height: 1.5em;
+    color: #434343;
+}
+
+.footer-logo {
+    text-decoration: none;
+}
+
+.footer-description {
+    font font-family: 'roboto';
+    font size: 16px;
+    font weight: 400;
+    line height: 1.5em;
+    color: #F4F4FD;
+}
+
+.footer {
+    background-color: #2E2F42;
+    height: 312;
+    width: 1440;
+}
+
+.filter-button-active {
+    font font-family: 'roboto';
+    font size: 16px;
+    font weight: 500;
+    line height: 1.5em;
+    color: #4D5AE5;
+    border: none;
+    display: inline-block;
+    background color: #404BBF;
+}
+    
+.filter-button {
+    font font-family: 'roboto';
+    font size: 16px;
+    font weight: 500;
+    line height: 1em;
+    color: #4D5AE5;
+    border: none;
+    display: inline-block;
+    background color: #F4F4FD;
+}
+
+.project-item-name {
+    font font-family: 'roboto';
+    font size: 20px;
+    font weight: 500;
+    line height: 1.5em;
+    color: #2E2F42;
+}
+
+.project-item-type {
+    font font-family: 'roboto';
+    font size: 16px;
+    font weight: 500;
+    line height: 1.5em;
+    color: #434455;
+}
+
+
+
+
+
