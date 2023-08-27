@@ -13,6 +13,18 @@ body {
     color: #4D5AE5;
 }
 
+.nav {
+    display: inline-block;
+}
+
+.nav-item {
+    display: inline-block;
+}
+
+.address-item {
+    display: inline-block;
+}
+
 .nav-logo {
     font-family: 'raleway';
     font-weight: 800;
