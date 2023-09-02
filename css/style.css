@@ -5,8 +5,8 @@
 }
 body {
     font-family: 'Roboto', sans-serif;
-    height: 2592px;
-    width: 1440px;
+    /* height: 2592px;
+    width: 1440px; */
 }
 
 ul{
@@ -73,11 +73,17 @@ button {
     width: 1440px;
 }
 
-.container-header {
-    padding: 0 15px;
-    display: inline-flex;
+.container {
     width: 1158px;
     margin: 0 auto;
+}
+
+.container-header {
+    padding: 0 15px;
+    display: flex;
+    width: 1158px;
+    margin: 0 auto;
+    justify-content: space-between;
 }
 
 .iris {
@@ -94,9 +100,7 @@ button {
     text-transform: uppercase;
     line-height: 1.125em;
     display: flex;
-    /* height: 24px;
-    align-items: center;
-    flex-shrink: 0; */
+   
 }
 
 .nav {
@@ -108,9 +112,7 @@ button {
     list-style: none;
     display: flex;
     flex-shrink: 0px;
-    gap: 40px;
-    position: relative;
-    left: 76px;
+    gap: 40px;     
 }
 
 .nav-link {
@@ -131,7 +133,6 @@ button {
     display: inline-flex;
     flex-shrink: 0px;
     gap: 40px;
-
 }
 
 .address-link {
@@ -145,10 +146,14 @@ button {
     gap: 40px;
 }
 
-.section-hero {
+.container-hero {
     background-color: var(--navyblue);
-    height: 600;
-    width: 1440;
+    height: 600px;
+    width: 1440px;
+    flex-shrink: 0;
+    padding: 188px 472px 292px 472px;
+    margin: 0px;
+    /* display: inline-block; */
 }
 
 .hero-title {
@@ -156,6 +161,7 @@ button {
     color: var(--white);
     font size: 56px;
     line height: 1.07em;
+    padding: 0 px 48px 0px 0px;
 }
 
 .hero-button {
@@ -168,14 +174,36 @@ button {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     display: inline-flex;
     padding: 16px 32px;
-    align-items: flex-start;
-    gap: 10px;
+    /* margin: 356px 635px 188px 636px; */
+    align-items: center;
 }
 
 .hero-button:hover {
     border-radius: 4px;
     background: var(--ocean);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.container-features {
+    margin: 120px 156px 120px 156px;
+}
+
+.features-item {
+    display: inline-block;
+    width: 264px;
+    flex-direction: column;
+    align-items: flex-start;   
+}
+
+.feature-list {
+    display: flex;
+    gap: 24px;
+}
+
+.features-item {
+    display: inline-block;
+    padding: 0px 9px 0px 9px;
+    box-sizing: content-box;
 }
 
 .features-item-title {
