@@ -146,13 +146,15 @@ button {
 }
 
 .section-hero {
+    background-color: var(--navyblue);
     width: 1440px;
+    height: 600px;
     margin: 0px;
+    
 }
 
 .container-hero {
-    background-color: var(--navyblue);
-    width: 1558px;    
+    width: 1158px;
     margin: 0 auto;
     align-items: center;
     justify-content: center;
@@ -180,7 +182,7 @@ button {
     padding: 16px 32px;
     display: flex;
     margin-top: 48px;
-    margin-bottom: 188px;
+    /* margin-bottom: 188px; */
 }
 
 .hero-button:hover {
@@ -191,22 +193,28 @@ button {
 
 .section-features {
     margin: 0px;
-    
+    width: 1440px;
+    display: flex;
+    flex: shrink;
 }
 
 .container-features {
     width: 1158px;
     margin: 0 auto;
-    margin-top: 120px;
-    margin-bottom: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+    justify-content: center;  
+}
 
 .features-item {
-    display: inline-block;
+    display: inline-flex;
     width: 264px;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px 9px 0px 9px;
     box-sizing: content-box;
+    gap: 8px;
 }
 
 .feature-list {
@@ -230,53 +238,84 @@ button {
     letter-spacing: 0.32px;
 }
 
-.container-services {
-    margin: 0px auto;
-    width: 1128px;
+.section-services {
+    width: 1440px;
+    margin: 0;
+    padding: 0px 120px;    
+}
+
+.container-services {    
+    width: 1158px;
     height: 412px;
-    display: inline-block;
-    /* margin: 0px 0px 558px 559px; */
-    
+    margin: 0px auto;
+    padding: 0px 156px 120px 156px;    
 }
 
 .services-title {
     font size: 36px;
-    text-align: center;
     line height: 2.25em;
     color: var(--navyblue);
+    text-align: center;
     text-transform: capitalize;
-    display: flex;
-    /* flex-direction: row; */
-    /* align-items: center; */
-    justify content: center;
-    margin: 0rem 0rem 7.2rem 0.1rem;
-    white-space: nowrap;
+    padding-bottom: 72px;    
 }
 
 .services-list {
-    display: inline-block;
-
+    display: inline-flex;
+    gap: 24px;        
 }
 
 .services-item-image {
-    display: inline-flex;
-    flex-direction: row;
-    align-items: flex-start;
     width: 360px;
     height: 300px;
     border: 1px solid var(--cornflower);
     background: url(<path-to-image>), lightgray -72.845px -19px / 144.444% 112.667% no-repeat;
-    
+}
+
+.section-team {
+    margin: 0px;
+    padding 0;
+    width: 1440px;
+    flex-shrink: 0;
+}
+
+.container-team {
+    background-color: var(--cloud)
+    width: 1158px;
+    height: 732px;
+    flex-shrink: 0;
+    margin: 0px auto;
+    justify-content: center;
+    align-content: center;
+    display: block;
+    padding: 120px;
 }
 
 .team-title {
     font size: 36px;
     font-style: normal;
-    text-align: center;
     text-transform: capitalize;
     line height: 2.25em;
     color: var(--navyblue);
     letter-spacing: 0.72px;
+    text-align: center;
+    /* padding-top: 120px; */
+}
+.team-list {
+    display: inline-flex;
+    gap: 24px;
+    padding-top: 72px;
+    padding-bottom: 120px;
+}
+
+.name-position {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 32px 0px;
+    margin: 0;
 }
 
 .team-item-name {
@@ -316,18 +355,24 @@ button {
     line height: 1.5em;
     color: var(--cloud);
     letter-spacing: 0.32px;
+    
 }
 
 .footer {
     background-color: var(--navyblue);
-    height: 312;
-    width: 1440;
+    width: 1440px;
+    flex-shrink: 0;
+    margin: 0;
+}
+.container-footer {
+    width: 1440px;
+    height: 312px;
+    flex-shrink: 0;
+    padding: 100px 1020px 100px 156px;
 }
 
 .footer-logo {
     display: inline-flex;
-    width: 71px;
-    height: 21px;
     color: var(--cloud);
     font-family: Raleway;
     font-size: 18px;
@@ -336,6 +381,15 @@ button {
     line-height: 1.125em;
     letter-spacing: 0.54px;
     text-transform: uppercase;
+    display: inline-flex;
+    height: 24px;
+    align-items: center;
+    flex-shrink: 0;
+    padding-bottom: 16px;     
+}
+
+.logo-container: {
+    padding-bottom: 16px;
 }
     
 .filter-button {    
