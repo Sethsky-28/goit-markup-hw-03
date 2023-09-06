@@ -61,22 +61,18 @@ button {
     --dairy: #fcfcfc;
 }
 
-.header {
-    background-color: var(--white);
-    border-bottom: var(--cornflower);
-    padding: 24px 0;
-    align-items: center;
-    display: inline-flex;
-    flex-direction: row;
-    flex-shrink: 0;
-    width: 1440px;
-}
-
 .container {
     width: 1158px;
     margin: 0 auto;
 }
 
+.header {
+    background-color: var(--white);
+    border-bottom: var(--cornflower);
+    padding: 24px 0;
+    align-items: center;
+    flex-shrink: 0;
+}
 .container-header {
     padding: 0 15px;
     display: flex;
@@ -98,8 +94,7 @@ button {
     letter-spacing: 0.54px;
     text-transform: uppercase;
     line-height: 1.125em;
-    display: flex;
-   
+    display: flex;   
 }
 
 .nav {
@@ -148,9 +143,8 @@ button {
 
 .section-hero {
     background-color: var(--navyblue);
-    width: 1440px;
-    height: 600px;
-    margin: 0px;    
+    margin: 0px;
+    padding: 188px 0;    
 }
 
 .container-hero {
@@ -161,14 +155,14 @@ button {
     display: flex;
     flex-direction: column;
     flex-shrink: 0;
+    gap: 48px;
 }  
 
 .hero-title {
     text-align: center;
     color: var(--white);
-    font size: 56px;
-    line height: 3.75em;
-    padding-top: 188px;     
+    font-size: 56px;
+    line-height: 1.075em;
 }
 
 .hero-button {
@@ -181,7 +175,6 @@ button {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     padding: 16px 32px;
     display: flex;
-    margin-top: 48px;
 }
 
 .hero-button:hover {
@@ -192,18 +185,14 @@ button {
 
 .section-features {
     margin: 0px;
-    width: 1440px;
-    display: flex;
+    display: flex;  
     flex: shrink;
+    padding: 120px 0px;
 }
 
 .container-features {
     width: 1158px;
     margin: 0 auto;
-    padding-top: 120px;
-    padding-bottom: 120px;
-    display: flex;
-    justify-content: center;  
 }
 
 .features-item {
@@ -211,13 +200,13 @@ button {
     width: 264px;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0px 9px 0px 9px;
     box-sizing: content-box;
     gap: 8px;
 }
 
 .feature-list {
     display: flex;
+    justify-content: center;
     gap: 24px;
 }
 
@@ -238,16 +227,13 @@ button {
 }
 
 .section-services {
-    width: 1440px;
     margin: 0;
-    padding: 0px 120px;    
+    padding: 120px 0px; 
 }
 
 .container-services {    
     width: 1158px;
-    height: 412px;
-    margin: 0px auto;
-    padding: 0px 156px 120px 156px;    
+    margin: 0px auto;       
 }
 
 .services-title {
@@ -260,7 +246,7 @@ button {
 }
 
 .services-list {
-    display: inline-flex;
+    display: flex;
     gap: 24px;        
 }
 
@@ -273,21 +259,18 @@ button {
 
 .section-team {
     margin: 0px;
-    padding 0;
-    width: 1440px;
+    padding: 120px 0;
     flex-shrink: 0;
 }
 
 .container-team {
     background-color: var(--cloud)
     width: 1158px;
-    height: 732px;
     flex-shrink: 0;
     margin: 0px auto;
     justify-content: center;
     align-content: center;
     display: block;
-    padding: 120px;
 }
 
 .team-title {
@@ -301,7 +284,7 @@ button {
 }
 
 .team-list {
-    display: inline-flex;
+    display: flex;
     gap: 24px;
     padding-top: 72px;
     padding-bottom: 120px;
@@ -358,17 +341,17 @@ button {
 
 .footer {
     background-color: var(--navyblue);
-    width: 1440px;
     flex-shrink: 0;
-    margin: 0;
+    margin: 0px;
+    padding: 100px 0px;
 }
 
 .container-footer {
-    width: 1440px;
-    height: 312px;
+    width: 1158px;
+    margin: 0 auto;
+    display: block;                                              */
     flex-shrink: 0;
-    padding-top: 100px;
-    padding-left: 156px;
+    gap: 16px;
 }
 
 .footer-logo {
@@ -381,9 +364,7 @@ button {
     line-height: 1.125em;
     letter-spacing: 0.54px;
     text-transform: uppercase;
-    display: inline-flex;
     height: 24px;
-    align-items: center;
     flex-shrink: 0;
     padding-bottom: 16px;     
 }
