@@ -230,7 +230,7 @@ button {
 .section-services {
     background-color: var(--white);
     margin: 0;
-    padding: 120px 0px; 
+    padding-bottom: 120px; 
 }
 
 .container-services {    
