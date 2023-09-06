@@ -184,6 +184,7 @@ button {
 }
 
 .section-features {
+    background-color: var(--white);
     margin: 0px;
     display: flex;  
     flex: shrink;
@@ -227,6 +228,7 @@ button {
 }
 
 .section-services {
+    background-color: var(--white);
     margin: 0;
     padding: 120px 0px; 
 }
@@ -258,13 +260,13 @@ button {
 }
 
 .section-team {
+    background-color: var(--cloud);
     margin: 0px;
     padding: 120px 0;
     flex-shrink: 0;
 }
 
 .container-team {
-    background-color: var(--cloud)
     width: 1158px;
     flex-shrink: 0;
     margin: 0px auto;
@@ -274,10 +276,10 @@ button {
 }
 
 .team-title {
-    font size: 36px;
+    font-size: 36px;
     font-style: normal;
     text-transform: capitalize;
-    line height: 2.25em;
+    line-height: 2.25em;
     color: var(--navyblue);
     letter-spacing: 0.72px;
     text-align: center;
@@ -301,16 +303,16 @@ button {
 }
 
 .team-item-name {
-    font size: 20px;
+    font-size: 20px;
     font-style: normal;
     text-align: center;
-    line height: 1.5em;
+    line-height: 1.5em;
     color: var(--navyblue);
     letter-spacing: 0.4px;
 }
 
 .team-item-position {
-    font size: 16px;
+    font-size: 16px;
     font-style: normal;
     text-align: center;
     line height: 1.5em;
@@ -331,10 +333,10 @@ button {
 }
 
 .footer-description {
-    font size: 16px;
+    font-size: 16px;
     font-style: normal;
     width: 264px;
-    line height: 1.5em;
+    line-height: 1.5em;
     color: var(--cloud);
     letter-spacing: 0.32px;    
 }
