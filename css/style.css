@@ -194,6 +194,8 @@ button {
 .container-features {
     width: 1158px;
     margin: 0 auto;
+    align-items: center;
+    justify-content: center;
 }
 
 .features-list {
@@ -236,7 +238,9 @@ button {
 
 .container-services {    
     width: 1158px;
-    margin: 0px auto;       
+    margin: 0px auto;
+    align-items: center;
+    justify-content: center;
 }
 
 .services-title {
@@ -276,6 +280,7 @@ button {
     justify-content: center;
     align-content: center;
     display: block;
+    align-items: center;
 }
 
 .team-title {
