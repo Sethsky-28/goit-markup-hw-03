@@ -299,8 +299,15 @@ button {
     flex-shrink: 0;
     justify-content: space-evenly;
     gap: 24px;
-    padding-top: 72px;
-    padding-bottom: 120px;
+    margin-top: 72px;    
+}
+
+.team-item {
+    background: var(--white);
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16), 
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .name-position {
@@ -330,19 +337,6 @@ button {
     color: var(--slate);
     letter-spacing: 0.32px;
 }
-
-.team-item-image {
-    display: inline-flex;
-    padding-bottom: 0px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 32px;
-    border-radius: 0px 0px 4px 4px;
-    background: var(--white);
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-}
-
 .footer-description {
     font-size: 16px;
     font-style: normal;
@@ -368,16 +362,14 @@ button {
 }
 
 .footer-logo {
-    display: inline-flex;
     color: var(--cloud);
     font-family: Raleway;
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
-    line-height: 1.125em;
+    line-height: 1.16em;
     letter-spacing: 0.54px;
     text-transform: uppercase;
-    height: 24px;
     flex-shrink: 0;
     padding-bottom: 16px;     
 }
@@ -465,10 +457,7 @@ button {
     width: 360px;
     flex-direction: column;
     align-items: flex-start;
-    flex-shrink: 0
-    border: initial 1px solid var(--cornflower);
-    background: #FFF;
-
+    background: var(--white);
 }
 
 .project-list {
@@ -480,6 +469,8 @@ button {
 .name-type {
     margin: 32px 0px;
     padding: 0px 16px;
+    border: 1px solid var(--cornflower);
+    border-top: unset;
 }
 
 
