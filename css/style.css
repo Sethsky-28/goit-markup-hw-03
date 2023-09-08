@@ -417,16 +417,7 @@ button {
 .projects {
     margin: 0 auto;
     padding: 0 156px;
-    display: flex;   
 }
-
-.container-row1,
-.container-row2,
-.container-row3 {
-    margin: 0 auto;
-    padding-bottom: 48px;
-}
-
 
 .project-item-name {
     color: var(--navyblue); 
@@ -460,8 +451,8 @@ button {
     background: var(--white);
 }
 
-.project-list {
-    display: flex;
+.project-list  {
+    display: inline-flex;
     gap: 24px;
     justify-content: space-evenly;
 }
@@ -471,6 +462,11 @@ button {
     padding: 0px 16px;
     border: 1px solid var(--cornflower);
     border-top: unset;
+}
+
+.container-rows {
+    display: flex;
+    flex-direction: row;
 }
 
 
