@@ -377,7 +377,7 @@ button {
 }
 
 .filters {
-    padding: 96px 0px 72px 0px;
+    padding: 96px 0px 0px 0px;
     margin: 0px auto;
 }
 
@@ -412,7 +412,8 @@ button {
     0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
-.filter-button-item {
+.filter-buttons {
+    display: flex;
     gap: 24px;
 }
 
