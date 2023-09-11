@@ -73,6 +73,7 @@ button {
     align-items: center;
     flex-shrink: 0;
 }
+
 .container-header {
     padding: 0 15px;
     display: flex;
@@ -249,7 +250,7 @@ button {
     color: var(--navyblue);
     text-align: center;
     text-transform: capitalize;
-    padding-bottom: 72px;    
+    margin-bottom: 72px;    
 }
 
 .services-list {
@@ -373,7 +374,7 @@ button {
 }
 
 .logo-container {
-    padding-top: 16px;
+    margin-top: 16px;
 }
 
 .filters {
@@ -425,21 +426,14 @@ button {
 .container-projects {
     width: 1158px;
     margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-.project-list: {
-    margin: 0 auto;
-    padding: 0;
-}
-.container-rows {
+.project-list {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 24px;
-    padding-bottom: 48px;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 
 .project-item-image {
